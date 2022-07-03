@@ -5,7 +5,8 @@ import Blogs from './Pages/Blogs/Blogs';
 import Home from './Pages/Home/Home';
 import Review from './Pages/Review/Review';
 import Dashboard from './Pages/Dashboard/Dashboard';
-import About from './Pages/About/About';
+import NotFound from './Pages/NotFound/NotFound';
+
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
-        <Route path='/about' element={<About></About>}></Route>
-        <Route path='*' element={<About></About>}></Route>
+
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       
     </div>
