@@ -20,8 +20,9 @@ const Header = () => {
  
         <Link to='/review'className='text-decoration-none me-4 fs-4 link-hover'>Reviews</Link>
         <Link to='/dashboard'className='text-decoration-none me-4 fs-4 link-hover'>Dashboard</Link>
-        <Link to='*'className='text-decoration-none me-4 fs-4 link-hover'>About</Link>
         <Link to='/blogs' className='text-decoration-none me-4 fs-4 link-hover'>Blogs</Link>
+        <Link to='*'className='text-decoration-none me-4 fs-4 link-hover'>About</Link>
+        
        
       </Nav>
       </Navbar.Collapse>

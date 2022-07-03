@@ -20,7 +20,7 @@ const Review = () => {
 
             </div>
             <div className='d-flex justify-content-center'>
-                <Link to='review'></Link>
+                <Link to='/review' className='btn btn-info text-center px-5 mt-2 fs-4  mb-4'>See all Reviews</Link>
                 {/* <button className='btn btn-info text-center px-5 mt-2 fs-4  mb-4'>See all Reviews</button> */}
             </div>
            
