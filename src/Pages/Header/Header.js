@@ -14,7 +14,7 @@ const Header = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className='' >
+      <Nav className='ms-5' >
       
         <Link to='/' className='text-decoration-none me-4 fs-4 link-hover'>Home</Link>
  

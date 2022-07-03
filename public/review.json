@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Irfan Hasan",
+      
+      "rating": 4.8,
+      "comment":"Nice watch.this watch color is attractive",
+      "img": "https://www.parttimely.com/wp-content/uploads/2018/10/5ef35341870e3a4250618661575eaa45.jpg"
+   
+      
+    },
+    {
+      "id": 2,
+      "name": "Sanjana Jahan",
+      "rating": 4.7,
+      "comment":"Watch collection is so much excellent.",
+      "img": "https://www.whatsappprofiledpimages.com/wp-content/uploads/2021/07/Cool-Boys-Girls-Stylish-Dp-1.jpg"
+   
+      
+    },
+    {
+      "id": 3,
+      "name": "Nipa Akter",
+      "rating": 4.9,
+      "comment":"Best collection always.Watch service is best",
+      "img": "https://www.whatsappprofiledpimages.com/wp-content/uploads/2021/11/Latest-Stylish-Girls-Whatsapp-Dp-Profile-Images-photo-free-hd.jpg"
+   
+      
+    },
+    {
+      "id": 4,
+      "name": "Priti Islam",
+      "rating": 4.6,
+      "comment":"I always prefer this watch for their warranty",
+      "img": "https://www.whatsappprofiledpimages.com/wp-content/uploads/2021/11/hd-New-Stylish-Girls-Whatsapp-Dp-Profile-Images-photo.jpg"
+   
+      
+    },
+    {
+      "id": 5,
+      "name": "Awsaf Islam",
+      "rating": 5,
+       "comment":"This watch just fabulous.Its very comfortable to use",
+      "img": "https://www.parttimely.com/wp-content/uploads/2018/10/stylish-boy-image-download.jpg"
+   
+      
+    },
+    {
+      "id": 6,
+      "name": "Mehedi Hasan",
+      "price": 4.9,
+      "comment":"I loved this watch and brand",
+      "img": "https://www.parttimely.com/wp-content/uploads/2018/10/cute-boys-wallpaper-hd-wallpapers-pinterest-5af59b39e8579.jpg"
+   
+      
+    }
+    
+    ]

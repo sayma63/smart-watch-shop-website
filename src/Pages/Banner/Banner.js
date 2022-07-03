@@ -9,8 +9,8 @@ const Banner = () => {
                 <div className=' col col-12 col-md-6'>
                 <p className='size'>Rolex Watch choices are  
                 <span className='text-primary size'> best choice</span></p>
-                    <h1>For everyone...</h1>
-                    <p>Rolex offers a wide assortment of Oyster Perpetual and Cellini watches to suit any wrist. Discover the broad selection of Rolex watches to find a perfect combination of style and functionality.</p>
+                    
+                    <p className='fs-5'>Rolex offers a wide assortment of Oyster Perpetual and Cellini watches to suit any wrist. Discover the broad selection of Rolex watches to find a perfect combination of style and functionality.</p>
                     <button className='btn btn-info fs-5'>Live Demo</button>
                 </div>
                 <div className=' col col-12 col-md-6'>
