@@ -1,6 +1,6 @@
 # Smart Watch Shop
 
-Click here for live website link:().
+Click here for live website link:(https://tangerine-cannoli-d6d47e.netlify.app/).
 
 ## Details of my project
 
