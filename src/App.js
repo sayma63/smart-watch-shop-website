@@ -6,11 +6,13 @@ import Home from './Pages/Home/Home';
 import Review from './Pages/Review/Review';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import NotFound from './Pages/NotFound/NotFound';
+import Header from './Pages/Header/Header';
 
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>

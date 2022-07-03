@@ -1,0 +1,14 @@
+.text-color{
+    color: purple;
+    font-size: 30px;
+    font-weight: 500;
+}
+.link-hover:hover{
+    color:magenta;
+    border-bottom: 2px solid magenta;
+    background-color: blueviolet;
+    
+}
+.nav{
+    background-color: aqua;
+}

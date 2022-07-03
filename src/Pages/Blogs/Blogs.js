@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
+        <div id='blogs'>
            <div>
                <h1 className='text-center text-primary mt-4'>Frequent Question Answer</h1>
            <h1 className='mt-4 ms-4'>1.What is Context API?</h1>
@@ -11,7 +11,7 @@ const Blogs = () => {
            </div>
            <div>
            <h1 className='mt-4 ms-4'>2.What is Semantic Tag?</h1>
-           <p style={{fontSize:'20px'}} className='question-style ms-4'><u>Answer:</u> Semantic tags provide information about the contents of those tags that goes beyond just how they look on a page.This tag makes the HTML more comprehensible by better defining the different sections and layout of web pages. These tags are easier for both people and machines to read and understand it. It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content.Examples of semantic HTML tags includes nav,footer,section tags etc.</p>
+           <p style={{fontSize:'20px'}} className='question-style ms-4 mb-5'><u>Answer:</u> Semantic tags provide information about the contents of those tags that goes beyond just how they look on a page.This tag makes the HTML more comprehensible by better defining the different sections and layout of web pages. These tags are easier for both people and machines to read and understand it. It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content.Examples of semantic HTML tags includes nav,footer,section tags etc.</p>
            </div>
         </div>
     );
