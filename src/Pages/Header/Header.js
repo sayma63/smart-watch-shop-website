@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-   <div >
+   
      <>
      <Navbar className='nav' expand="lg">
      <Container>
@@ -31,7 +31,7 @@ const Header = () => {
 </Navbar>
  
 </>
-   </div>
+  
     );
 };
 
