@@ -2,7 +2,7 @@
 import React from 'react';
 import './Dashboard.css'
 
-import { LineChart, Line, XAxis, YAxis, Legend, CartesianGrid, Tooltip, ResponsiveContainer, } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Legend, CartesianGrid, Tooltip, ResponsiveContainer, Bar, BarChart, } from 'recharts';
 
 
 const Dashboard = () => {
@@ -48,19 +48,26 @@ const Dashboard = () => {
         }
     ];
     return (
-        <div>
-            <h1 className='heading'>MONTH WISE SELL</h1>
+        <div >
+           
+           
+            <div className=' row ' >
+            
+                <div className=' col-12 col-lg-6' >
+                 
+                  <div>
+                    <h1 className='heading'>MONTH WISE SELL</h1>
+                    </div>
 
-            <div >
-                <div>
-                    <LineChart
-                        width={700}
+                  <LineChart
+                        width={500}
                         height={500}
                         data={data}
+                        
 
                     >
 
-                        <CartesianGrid strokeDasharray="3 3" />
+                       
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
@@ -69,6 +76,52 @@ const Dashboard = () => {
 
 
                     </LineChart>
+                 
+
+                 
+                </div>
+          
+                <div className=' col-lg-6 col-12'>
+                 
+                  <div>
+                    <h1 className='heading'>Investment VS Revenue</h1>
+                    </div>
+ 
+           
+           <BarChart
+          width={500}
+          height={500}
+          data={data}
+            
+        >
+            <div>
+                    <h1 className='heading'>Investment VS Revenue</h1>
+                    </div>
+ 
+           
+           <BarChart
+          width={500}
+          height={500}
+          data={data}
+            
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="month" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+          <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+        </BarChart>
+          <XAxis dataKey="month" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+          <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+        </BarChart>
+                 
+           
                 </div>
             </div>
 

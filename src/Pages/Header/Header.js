@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-   <div>
+   <div >
      <>
      <Navbar className='nav' expand="lg">
      <Container>
