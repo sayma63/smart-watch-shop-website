@@ -8,8 +8,8 @@ const AllReview = () => {
         <div>
              <div className='container'>
                 <div className='row'>
-                    <h1 className='title mt-4 mb-4'>What Our Customers Say!</h1>
-                    <div className='reviewer-container mb-2'>
+                    <h1 className='title  '>What Our Customers Say!</h1>
+                    <div className='reviewer-container mb-5 mt-4'>
                     {
                reviewers.map(reviewer=><SingleReview key={reviewer.id} reviewer={reviewer}></SingleReview>)
            } 

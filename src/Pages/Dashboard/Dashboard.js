@@ -2,7 +2,7 @@
 import React from 'react';
 import './Dashboard.css'
 
-import { LineChart, Line, XAxis, YAxis, Legend, CartesianGrid, Tooltip, ResponsiveContainer, Bar, BarChart, } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Legend, CartesianGrid, Tooltip, ResponsiveContainer, Bar, BarChart, AreaChart, ReferenceLine, Area, } from 'recharts';
 
 
 const Dashboard = () => {
@@ -48,90 +48,83 @@ const Dashboard = () => {
         }
     ];
     return (
-        <div >
-           
-           
-            <div className=' row ' >
-            
-                <div className=' col-12 col-lg-6' >
-                 
-                  <div>
-                    <h1 className='heading'>MONTH WISE SELL</h1>
-                    </div>
+       
 
-                  <LineChart
-                        width={500}
-                        height={500}
-                        data={data}
-                        
+                <div className=' container  ' >
 
-                    >
 
+                   <div className="row">
+                   <div className=' col col-12 col-md-6'>
+                        <h1 className='heading'>MONTH WISE SELL</h1>
+ 
                        
-                        <XAxis dataKey="month" />
-                        <YAxis />
-                        <Tooltip />
-                        <Legend />
-                        <Line dataKey="sell" stroke="#8884d8" />
-
-
-                    </LineChart>
+                      <ResponsiveContainer width='100%' height={500}>
+                      <LineChart width={500} height={500} data={data}>
+                            
+                            <Line dataKey={'sell'}stroke="#82ca9d" ></Line>
+                            <XAxis dataKey={'month'}></XAxis>
+                            <Tooltip></Tooltip>
+                            <YAxis></YAxis>
+                            <Legend></Legend>
+                        </LineChart>
+                      </ResponsiveContainer>
+                           
                  
+                      
+                    </div>
 
-                 
+
+
+                    <div  className=' col col-12 col-md-6'>
+                        <h1 className='heading'>Investment VS Revenue</h1>
+                      <ResponsiveContainer  width='100%' height={500}>
+                      <BarChart
+                             width={500}
+                            height={500}
+                            data={data}
+
+                        >
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="month" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+                            <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+                        </BarChart>
+                      </ResponsiveContainer>
+
+                    </div>
+                   </div>
+
+
                 </div>
+
+
+
+
+
+
+
+
+
+
           
-                <div className=' col-lg-6 col-12'>
-                 
-                  <div>
-                    <h1 className='heading'>Investment VS Revenue</h1>
-                    </div>
- 
-           
-           <BarChart
-          width={500}
-          height={500}
-          data={data}
-            
-        >
-            <div>
-                    <h1 className='heading'>Investment VS Revenue</h1>
-                    </div>
- 
-           
-           <BarChart
-          width={500}
-          height={500}
-          data={data}
-            
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="month" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="investment" stackId="a" fill="#8884d8" />
-          <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
-        </BarChart>
-          <XAxis dataKey="month" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="investment" stackId="a" fill="#8884d8" />
-          <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
-        </BarChart>
-                 
-           
-                </div>
-            </div>
-
-
-        </div>
 
 
 
 
-        
+
+
+
+
+
+
+
+
+
+
+
 
 
 
